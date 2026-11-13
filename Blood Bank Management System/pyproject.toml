@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "bbms"
+version = "0.1.0"
+description = "Blood Bank Management System — Advanced DBMS Project"
+authors = ["Team"]
+
+[tool.poetry.dependencies]
+python    = "^3.11"
+streamlit = "^1.35"
+psycopg2-binary = "^2.9"
+python-dotenv   = "^1.0"
+faker     = "^25.0"
+pandas    = "^2.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^8.0"
+
+[build-system]
+requires      = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+

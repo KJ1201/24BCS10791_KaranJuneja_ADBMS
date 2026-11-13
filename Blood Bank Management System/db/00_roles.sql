@@ -1,0 +1,4 @@
+-- ============================================================
+-- ROLES: Not needed. Everything runs under default role (postgres).
+-- ============================================================
+-- You do not need to run this file.
